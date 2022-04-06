@@ -1,4 +1,4 @@
 # beers-api
-An API for Beers
+An API Project for Beers
 
 This is a node/express project I completed for Mississippi Coding Academies.
