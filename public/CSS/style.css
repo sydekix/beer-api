@@ -1,0 +1,62 @@
+.nav {
+    background-color: black;
+    margin: 0;
+
+}
+
+.nav-item {
+    text-decoration: none;
+    padding: 10px 0 10px 0;
+    color: red
+}
+
+.hero-beer {
+    margin-top: 475px;
+    /* padding-top: 200px; */
+}
+
+.beer-text {
+    color: white;
+}
+
+.beer-div a {
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(111, 65, 4);
+}
+
+/* .colophon {
+    margin-top: 170px;
+} */
+
+footer {
+    margin-top: 450px;
+}
+
+/* .no-gutters {
+    padding: 0;
+    /* margin: 0; */
+
+
+/* .top-link {
+    margin-top: 180px;
+} */
+
+.container-fluid {
+    /* padding: 10px, 0, 10px, 0; */
+    /* padding-bottom: 10px; */
+    /* margin: 10px, 0, 20px, 0; */
+    padding: 0;
+}
+
+.single-beer {
+    padding-right: 0;
+    padding-left: 75px;
+    padding-top: 50px;
+    margin: 0;
+}

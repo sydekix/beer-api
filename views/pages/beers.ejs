@@ -1,0 +1,18 @@
+<%- include('../partials/header'); %>
+
+    <main class="main container">
+        <div class="row text-center">
+            <% data.forEach(item => { %>
+                <div class="col-md-4 beer-div">
+                    <a href="/beers/<%= item.id %>">
+                        <h2><%= item.title %></h2>
+                        <img class="img-fluid" src="<%= item.image %>" alt="<%= item.title %>">
+                        <p class="beer-text">Price: <%= item.price %></p>
+                        <p class="beer-text">Rating: Average - <%= Math.floor(item.rating.average) %>, Reviews - <%= item.rating.reviews %></p>
+                    </a>
+                </div>
+            <% }) %>
+        </div>
+    </main>
+
+<%- include('../partials/footer'); %>

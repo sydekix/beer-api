@@ -1,0 +1,17 @@
+<%- include('../partials/header'); %>
+
+    <main class="main container">
+        <div class="row text-center">
+            <h2 class="col-12"><%= name %></h2>
+            <section class="section row single-beer">
+                <figure class="figure col-10">
+                    <img src="<%= data.image %>" alt="<%= data.name %>" class="img-fluid">
+                    <figcaption class="beer-text"><%= data.name %></figcaption>
+                    <figcaption class="beer-text">Price: <%= data.price %></figcaption>
+                    <figcaption class="beer-text">Rating: Average - <%= Math.floor(data.rating.average) %>, Reviews - <%= data.rating.reviews %></figcaption>
+                </figure>
+            </section>
+        </div>
+    </main>
+
+<%- include('../partials/footer'); %>
